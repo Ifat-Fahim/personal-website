@@ -6,6 +6,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  color: dimgray;
+}
+
+h1,
+h2,
+b {
+  color: #000;
 }
 
 img {
@@ -16,6 +23,10 @@ img {
 h1 {
   font-size: 50px;
   font-weight: 200;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .name-highlight {
@@ -44,5 +55,77 @@ h1 {
 .top-banner,
 .biography {
   padding-bottom: 500px;
-  border: 2px solid red;
+}
+
+.projects {
+  background-image: url("images/latest-work-bg.png");
+  text-align: center;
+}
+
+.project-gallery {
+  width: 85%;
+  padding-bottom: 285px;
+  margin: 0 auto;
+}
+
+.project-photo {
+  width: 31%;
+  float: left;
+}
+
+.project-photo-m {
+  margin-right: 3%;
+}
+
+.end {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.quote {
+  position: relative;
+  line-height: 3;
+}
+
+.quote::before {
+  content: open-quote;
+  position: absolute;
+  top: -50%;
+  left: -2%;
+  font-size: 50px;
+  color: red;
+}
+
+.quote::after {
+  content: close-quote;
+  position: absolute;
+  bottom: -60%;
+  left: 62%;
+  font-size: 50px;
+  color: red;
+}
+
+.part-b {
+  width: 60%;
+  margin: 0 auto;
+  background-image: linear-gradient(90deg, hotpink, deeppink);
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.email {
+  font-size: 25px;
+  font-weight: 900px;
+  font-style: italic;
+}
+
+.bottom {
+  margin-top: 60px;
 }
