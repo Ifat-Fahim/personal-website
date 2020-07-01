@@ -20,6 +20,16 @@ img {
   height: auto;
 }
 
+.top-banner {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+}
+
+.biography {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 200;
@@ -59,6 +69,7 @@ h2 {
 
 .projects {
   background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -78,6 +89,8 @@ h2 {
 }
 
 .end {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
   text-align: center;
   margin-top: 100px;
   padding-bottom: 80px;
@@ -127,5 +140,23 @@ h2 {
 }
 
 .bottom {
-  margin-top: 60px;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+  padding: 15px;
 }
