@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.name-highlight {
+  color: #ff1493;
+  font-weight: 900;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900px;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  background-image: linear-gradient(110deg, hotpink, deeppink);
+}
+
+.half-width {
+  width: 48%;
+  float: left;
+  padding: 0 10%;
+}
+
+.top-banner,
+.biography {
+  padding-bottom: 500px;
+  border: 2px solid red;
+}
